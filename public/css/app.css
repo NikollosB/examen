@@ -1,0 +1,33 @@
+body{
+    background-color:black;
+    color:green;
+    font-family: consolas;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+    color: green;
+}
+a:hover{
+    color: chartreuse;
+}
+p{
+font-size: 30px;
+}
+li{
+    display: inline;
+    text-decoration: none;
+    margin-right: 20px;
+}
+li:hover{
+    color: chartreuse;
+}
+li::before{
+    content: "   | ";
+}
+ul{
+    margin-left: 20px;
+}
+
+
+
