@@ -46,7 +46,7 @@ class ServicesController extends Controller
         Service::create($request->all());
      
         return redirect()->route('products.index')
-                        ->with('success','Product created successfully.');
+                        ->with('success','Service created successfully.');
     }
      
     /**
@@ -88,7 +88,7 @@ class ServicesController extends Controller
         $product->update($request->all());
     
         return redirect()->route('products.index')
-                        ->with('success','Product updated successfully');
+                        ->with('success','Service updated successfully');
     }
     
     /**
@@ -101,7 +101,7 @@ class ServicesController extends Controller
     {
         $product->delete();
     
-        return redirect()->route('services.index')
-                        ->with('success','Product deleted successfully');
+        return redirect()->route('products.index')
+                        ->with('success','Service deleted successfully');
     }
 }

@@ -3,6 +3,8 @@ body{
     color:green;
     font-family: consolas;
     overflow: hidden;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 a{
     text-decoration: none;
@@ -12,18 +14,34 @@ a:hover{
     color: chartreuse;
 }
 p{
-font-size: 30px;
+font-size: 15px;
+}
+pre{
+    background-color:black;
+    color:green;
+    font-family: consolas;
+    overflow: hidden;
+    margin-left: 20px;
 }
 li{
     display: inline;
     text-decoration: none;
     margin-right: 20px;
 }
+li:first-child{
+    margin-right: 0;
+}
 li:hover{
     color: chartreuse;
 }
+h4:hover{
+    color: chartreuse;
+}
+th:hover{
+    color: chartreuse;
+}
 li::before{
-    content: "   | ";
+    content: "| ";
 }
 ul{
     margin-left: 20px;

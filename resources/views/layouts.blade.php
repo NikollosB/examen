@@ -10,13 +10,13 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.css" rel="stylesheet">
 <link rel="stylesheet" href="{{URL::asset('css/app.css')}}" class="href">
 <body>
-<ul>
+<div style=" margin-bottom: 25px;">
            <li><a href="/">Home</a></li>
         <li><a href="/about">About</a></li>
         <li><a href="/contacts">Contacts</a></li>
         <li><a href="products">Servicii</a></li>
-       
-</ul>
+</div>    
+
 @yield('content')
 
 
